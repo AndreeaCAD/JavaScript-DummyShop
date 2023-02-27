@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    background-color: #F8EFBA;
+}
+
+header {
+    border: 1px solid #58B19F;
+    margin: 0;
+    color: white;
+    background-color: #58B19F;
+    padding: 0 1rem;
+}
+#title-name {
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    letter-spacing: 0.2rem;
+}
+
+#productsList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product-image {
+    margin: 1rem;
+    width: 320px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+#productDetails {
+    padding: 1rem;
+}
+.product-title {
+    font-size: 1.5rem;
+}
+
+.card-container {
+    margin: 1rem;
+    width: fit-content;
+    max-width: 22rem;
+    border-radius: 25px;
+    padding: 1rem;
+    background-color: #EAB543 ;
+}
+.card-price{
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+}
+
+.user-container {
+    border: 3px solid #EAB543 ;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 20rem;
+    margin: 1rem;
+}
+
+.user-image {
+    width: 300px;
+    height: 300px;
+    margin-top: 0;
+    border-radius: 50%;
+    border: 1px solid #EAB543 ;
+}
+
+.user-information {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.5rem;
+}
+ #usersList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.user-name, #userFullName {
+    color: #58B19F;
+    text-align: center;
+    font-size: 2rem;
+}
+
+#userEmail {
+   text-align: center;
+}
+
+.container-user-details {
+    margin: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#user-full-details {
+    border: 3px solid #58B19F;
+    border-radius: 2rem;
+    padding: 2rem;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+}
+
+
+@media only screen and (max-width: 767px) {
+    body {
+        background-color: #EAB543;
+    }
+    .card-container {
+    max-width: 18rem;
+    background-color: #F8EFBA;
+    }
+    
+    .product-image {
+    width: 250px;
+    height: 250px;
+    }
+
+    .user-container {
+    border: 5px solid  #F8EFBA;         
+    }
+    .user-image {
+    border: 3px solid #F8EFBA;  
+    }
+    #userImage {
+        width: 250px;
+        height: 250px;
+    }
+    .container-user-details {
+        margin: 2rem;
+
+    }
+}
